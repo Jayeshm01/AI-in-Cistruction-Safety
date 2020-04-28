@@ -1,0 +1,9 @@
+item {
+    id: 1
+    name: 'Helmet_on'
+}
+
+item {
+    id: 2
+    name: 'Helmet_missing'
+}
