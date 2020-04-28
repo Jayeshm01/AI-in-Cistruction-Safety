@@ -18,5 +18,5 @@ The model is trained untill loss < 0.05
 
 ### 4. Results
 
-![Test1](/PHOTO-2020-03-17-17-46-32 2.jpg)
+![Test1](https://github.com/Jayeshm01/AI-in-Construction-Safety/blob/master/PHOTO-2020-03-17-17-46-32%202.jpg)
 
