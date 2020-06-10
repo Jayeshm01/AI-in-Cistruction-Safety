@@ -7,12 +7,12 @@ LabelImg
 
 
 ### 2. Project Motivation
-There are endless applications of A.I and so many possibilities, My thought process was to apply A.I in Costruction in a way that could help in improving the safety of construction workers. This model can add as a safeguard to ensuring the safety of workers in the feild. 
+There are endless applications of AI, My thought process was to apply AI in Costruction in a way that could help in improving the safety of construction workers. This application of the model to CCTV Video can add as a safeguard to ensuring the safety of workers in the feild. 
 
 ### 3. How it works?
 I colllected about 2K images from Google and labelled these images using 'LabelImg'. labelImg is a tool in python which has a very simple interface to label our classes, In this case 'Helmet_on' and 'Helmet_missing'. These images are then converted to a tensorflow record for training. We are using Tensorflow Object detection API here. 
 
-Since I cannot train a model from scratch with limited images, I will use Faster-r-cnn-resnet pre-trained model as my base and modify it to detect classes for this specific use case.
+Since I cannot train a model from scratch with limited images, I will apply Tranfer learning here and use Faster-r-cnn-resnet pre-trained model weights as my starting point and modify it to detect classes for this specific use case.
 
 The model is trained untill loss < 0.05 
 
